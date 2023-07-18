@@ -266,6 +266,7 @@ footer {
     text-align: center;
     border-bottom: 1px solid var(--GrayishBlue);
     padding-bottom: 40px;
+    position :relative ;
 }
 
 .social-icons {
@@ -444,15 +445,20 @@ footer {
         align-items: center;
         gap: 50px;
         justify-content: space-between;
-        padding: 105px 50px;
+        padding: 70px 50px;
         margin-top: 80px;
         margin-inline: 10%;
         text-align: left;
+        overflow: hidden ;
     }
 
     .about h2 {
         margin-bottom: 0;
         font-size: 50px;
+    }
+    
+    .about-pattern.desktop{
+      bottom: 0;
     }
 
     footer {
